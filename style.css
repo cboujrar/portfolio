@@ -1,0 +1,45 @@
+body{
+    background-color: #FBF8CC;
+    height: 100vh;
+    color: #03045E;
+}
+
+body .header{
+    display: grid;
+    grid-template-columns: repeat(3, auto, 1fr, auto);
+    gap: 10px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+body .header .logo{
+    width: 200px;
+    clear:both;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+body .header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .header .nav span{
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+body .header .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .header .icon i{
+    display: flex;
+    padding: 10px;
+}
