@@ -9,18 +9,18 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">
+        <a class="logo" href="./index.html">
             <h3 class="logo"> Claudia Alves</h3>
-        </div>
+        </a>
        <nav class="nav">
-            <span>home</span>
-            <span>about</span>
-            <span>work</span>
+            <a href="./index.html">home</a>
+            <a href="./index.html#about">about</a>
+            <a href="./index.html#work">work</a>
         </nav>
         <div class="icon">
-            <i class="fa-brands fa-medium"></i>
-            <i class="fa-brands fa-behance"></i>
-            <i class="fa-brands fa-twitter"></i>
+            <a href="#"><i class="fa-brands fa-medium"></i></a>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
         </div>
     </header>
     <div class="intro">
@@ -35,7 +35,7 @@
             <div class="image"> <img src="./images/th.jpeg"></div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <h3 class="title">about.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facere possimus delectus harum quisquam cumque, fugiat ullam dolore omnis sed numquam eligendi minima quidem perspiciatis quia odit qui veniam earum.</p>
         <div class="years">
@@ -60,21 +60,37 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, omnis! Dolores unde quidem est nam eligendi soluta repellendus odit ex placeat veniam, quis quam minima esse enim, minus autem voluptatum?</p>
         </div>
     </div>
-    <div class="work">
+    <div class="work" id="work">
         <h3 class="title">work.</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse vero doloremque dolore iusto laboriosam autem facere nulla quis libero commodi deleniti itaque laudantium sequi error debitis suscipit amet, adipisci eveniet?</p>
-        <div class="study">
-            <div class="study1">
+        <div class="container">
+            <div class="card">
                 <img src="./images/image1.jpeg" alt="">
-                <div>Novembre 21, 2019</div>
-                <h3>some case of study</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima suscipit. Dolor natus nostrum quam, dicta ullam corporis voluptate ex vero officiis corrupti debitis perspiciatis repudiandae quibusdam facere eligendi qui!</p>
+                <div class="card-content">
+                    <div>Novembre 21, 2019</div>
+                    <h3>some case of study</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima suscipit. Dolor natus nostrum quam, dicta ullam corporis voluptate ex vero officiis corrupti debitis perspiciatis repudiandae quibusdam facere eligendi qui!</p>
+                </div>
             </div>
-            <div class="study2">
-                <img src="./images/image2.jpeg" alt="">
-                <div>Novembre 21, 2019</div>
-                <h3>some case of study</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima suscipit. Dolor natus nostrum quam, dicta ullam corporis voluptate ex vero officiis corrupti debitis perspiciatis repudiandae quibusdam facere eligendi qui!</p>
+            <div class="card">
+                <img src="./images/image2.jpg" alt="">
+                <div class="card-content">
+                    <div>Novembre 21, 2019</div>
+                    <h3>some case of study</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima suscipit. Dolor natus nostrum quam, dicta ullam corporis voluptate ex vero officiis corrupti debitis perspiciatis repudiandae quibusdam facere eligendi qui!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h3 class="title">contact.</h3>
+        <div class="container-contact">
+            <img src="./images/download.jpeg" alt="">
+            <div class="contact-infos">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur temporibus voluptatem neque accusamus at magnam et, sunt corporis velit nostrum aperiam similique, fuga ut maxime, cum maiores possimus? Adipisci, error?</p>
+                <a href="#">ClaudiaAlves@email.com</a>
+                <a href="#">twitter.com/ClaudiaAlves</a>
+                <a href="#">behance.com/ClaudiaAlves</a>
             </div>
         </div>
     </div>
